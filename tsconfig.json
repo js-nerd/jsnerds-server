@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
     "module": "commonjs",
-    "target": "es6",
-    "rootDir": "./",
-    "esModuleInterop": true
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   }
 }
